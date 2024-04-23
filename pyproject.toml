@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "articlepart2"
+version = "0.1.0"
+description = ""
+authors = ["elokow <lukas.kowejsza@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+SQLAlchemy = ">2"
+sqlmodel = "0.0.16"
+pytest = "^8"
+jupyter = "^1.0.0"
+openpyxl = "3.1.2"
+openai = "1.14.3"
+colorama = "0.4.6"
+python-dotenv = "1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
